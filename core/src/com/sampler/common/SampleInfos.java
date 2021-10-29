@@ -18,7 +18,8 @@ public class SampleInfos {
             ModuleInfoSample.SAMPLE_INFO,
             OrthographicCameraSample.SAMPLE_INFO,
             ViewportSample.SAMPLE_INFO,
-            SpritebatchSample.SAMPLE_INFO
+            SpritebatchSample.SAMPLE_INFO,
+            ShapeRenderSample.SAMPLE_INFO
 
     );
 
