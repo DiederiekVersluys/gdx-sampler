@@ -19,7 +19,11 @@ public class SampleInfos {
             OrthographicCameraSample.SAMPLE_INFO,
             ViewportSample.SAMPLE_INFO,
             SpritebatchSample.SAMPLE_INFO,
-            ShapeRenderSample.SAMPLE_INFO
+            ShapeRenderSample.SAMPLE_INFO,
+            BitmapFontSample.SAMPLE_INFO,
+            PoolingSample.SAMPLE_INFO,
+            AssetManagerSample.SAMPLE_INFO,
+            TextureAtlasSample.SAMPLE_INFO
 
     );
 
