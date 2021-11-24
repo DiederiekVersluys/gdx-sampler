@@ -1,20 +1,21 @@
 package com.sampler.common;
 
-public class SampleInfo {
+import com.sampler.CustomActorSample;
 
+public class SampleInfo {
     private final String name;
     private final Class<? extends SampleBase> clazz;
 
     public SampleInfo(Class<? extends SampleBase> clazz) {
-        this.name = clazz.getSimpleName();
         this.clazz = clazz;
+        name = clazz.getSimpleName();
     }
 
     public String getName() {
         return name;
     }
 
-    public Class<? > getClazz() {
+    public Class<?> getClazz() {
         return clazz;
     }
 }

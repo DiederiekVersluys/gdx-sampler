@@ -1,6 +1,7 @@
 package com.sampler.common;
 
 import com.sampler.*;
+import com.sampler.TableSample;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -23,7 +24,10 @@ public class SampleInfos {
             BitmapFontSample.SAMPLE_INFO,
             PoolingSample.SAMPLE_INFO,
             AssetManagerSample.SAMPLE_INFO,
-            TextureAtlasSample.SAMPLE_INFO
+            TextureAtlasSample.SAMPLE_INFO,
+            CustomActorSample.SAMPLE_INFO,
+            ActionsSample.SAMPLE_INFO,
+            TableSample.SAMPLE_INFO
 
     );
 
